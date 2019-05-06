@@ -1,0 +1,11 @@
+sudo: required
+language: cpp
+services:
+  - docker
+before_install:
+  - docker pull maximbaz/arch-build-aur
+script:
+  - docker run --rm -v $(pwd):/pkg -v $(pwd):/build maximbaz/arch-build-aur /bin/bash -c '/build-pkgbuild'
+branches:
+  only:
+    - master
