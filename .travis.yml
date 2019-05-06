@@ -1,11 +1,11 @@
 sudo: required
-language: cpp
+language: none
 services:
   - docker
 before_install:
   - docker pull nandub/arch-pkgbuild
 script:
-  - docker run --rm -v $(pwd):/build nandub/arch-pkgbuild
+  - docker run --rm -it -v$(pwd):/build nandub/arch-pkgbuild
 branches:
   only:
     - master
