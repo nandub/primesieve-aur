@@ -1,9 +1,8 @@
 pkgbase = primesieve
-	pkgdesc = C++ library that generates prime numbers and prime k-tuplets
+	pkgdesc = A fast prime number generation program and C/C++ library
 	pkgver = 7.4
 	pkgrel = 1
-	url = https://primesieve.org/
-	arch = i686
+	url = https://github.com/kimwalisch/primesieve
 	arch = x86_64
 	license = BSD
 	makedepends = cmake
