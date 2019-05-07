@@ -2,7 +2,7 @@
 # Contributor: Kim Walisch <kim.walisch@gmail.com>
 
 pkgname=primesieve
-pkgver=7.1
+pkgver=7.4
 pkgrel=1
 pkgdesc="A fast prime number generation program and C/C++ library"
 url="https://primesieve.org/"
@@ -11,7 +11,7 @@ depends=(gcc-libs)
 provides=('libprimesieve.a' 'libprimesieve.so')
 makedepends=('cmake' 'help2man')
 source=(https://github.com/kimwalisch/primesieve/archive/v$pkgver.tar.gz)
-sha1sums=('293db5261e443df7147e760a9ca0b919982381c1')
+sha1sums=('72aa38a72a07a87e5fbf6aa1118fa1b1596a8fef')
 arch=('i686' 'x86_64')
 
 build() {
