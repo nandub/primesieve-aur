@@ -1,14 +1,13 @@
 pkgbase = primesieve
 	pkgdesc = A fast prime number generation program and C/C++ library
-	pkgver = 7.5
+	pkgver = 11.1
 	pkgrel = 1
 	url = https://github.com/kimwalisch/primesieve
 	arch = x86_64
 	license = BSD
 	makedepends = cmake
 	depends = gcc-libs
-	source = https://github.com/kimwalisch/primesieve/archive/v7.5.tar.gz
-	sha1sums = 2e21e8bfa27aec1bc7b7abcd6e81c12f208412e9
+	source = primesieve-11.1.tar.gz::https://github.com/kimwalisch/primesieve/archive/v11.1.tar.gz
+	sha1sums = 0f8bafd657ba79f6809c0ff07f6513b875b46c99
 
 pkgname = primesieve
-
